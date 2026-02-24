@@ -2,6 +2,6 @@
   "buildCommand": "npm run build",
   "outputDirectory": "build",
   "env": {
-    "REACT_APP_API_URL": "https://online-book-store-1-xfg0.onrender.com/api"
+    "REACT_APP_API_URL": "https://bookstore-api-fnjd.onrender.com/api"
   }
 }
