@@ -4,5 +4,5 @@ This is a repository for online book store with key features :
 -Cart system 
 -User authentication 
 -Order placement
-Deployed Link: https://online-book-store-puce-theta.vercel.app/
+Deployed Link: https://bookstore-iota-three.vercel.app
 Backend Deployment Link: https://online-book-store-1-xfg0.onrender.com
