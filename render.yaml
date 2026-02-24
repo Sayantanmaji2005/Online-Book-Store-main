@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: bookstore-api
+    env: node
+    plan: free
+    buildCommand: cd Server && npm install
+    startCommand: cd Server && node server.js
+    envVars:
+      - key: MONGO_DB_URI
+        scope: build,runtime
+        value: mongodb+srv://admin:admin@bookstore.xevolrp.mongodb.net/online-bookstore?retryWrites=true&w=majority&appName=BookStore
+      - key: JWT_SECRET
+        scope: build,runtime
+        value: OnlineBookStore
+      - key: PORT
+        scope: build,runtime
+        value: 5050
+      - key: NODE_ENV
+        scope: build,runtime
+        value: production

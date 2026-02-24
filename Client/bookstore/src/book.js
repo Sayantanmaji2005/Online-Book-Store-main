@@ -1,0 +1,117 @@
+
+// This is temporary file for store
+
+export const sampleBooks = [
+  {
+    id: 1,
+    title: "Wings of Fire",
+    author: "A.P.J. Abdul Kalam",
+    price: 299,
+    rating: 4.9,
+    reviews: 12450,
+    genre: "Biography",
+    pages: 180,
+    published: "1999",
+    isBestSeller: true,
+    description: "An inspiring autobiography of Dr. A.P.J. Abdul Kalam, tracing his journey from a small-town boy to the President of India.",
+    image: "https://images.unsplash.com/photo-1524578271613-d550eacf6090?w=400&h=600&fit=crop"
+  },
+  {
+    id: 2,
+    title: "The Immortals of Meluha",
+    author: "Amish Tripathi",
+    price: 350,
+    rating: 4.6,
+    reviews: 9821,
+    genre: "Mythology",
+    pages: 415,
+    published: "2010",
+    isBestSeller: true,
+    description: "The first book of the Shiva Trilogy, reimagining Lord Shiva as a human hero and exploring themes of duty and destiny.",
+    image: "https://images.unsplash.com/photo-1519682337058-a94d519337bc?w=400&h=600&fit=crop"
+  },
+  {
+    id: 3,
+    title: "You Can Win",
+    author: "Shiv Khera",
+    price: 220,
+    rating: 4.5,
+    reviews: 7432,
+    genre: "Motivation",
+    pages: 276,
+    published: "1998",
+    isBestSeller: true,
+    description: "A practical self-help book focused on building confidence, positive thinking, and achieving success in life.",
+    image: "https://images.unsplash.com/photo-1509021436665-8f07dbf5bf1d?w=400&h=600&fit=crop"
+  },
+  {
+    id: 4,
+    title: "Five Point Someone",
+    author: "Chetan Bhagat",
+    price: 199,
+    rating: 4.2,
+    reviews: 8650,
+    genre: "Fiction",
+    pages: 270,
+    published: "2004",
+    isBestSeller: true,
+    description: "A relatable campus novel that captures friendship, pressure, and life inside an IIT college environment.",
+    image: "https://images.unsplash.com/photo-1528207776546-365bb710ee93?w=400&h=600&fit=crop"
+  },
+  {
+    id: 5,
+    title: "The White Tiger",
+    author: "Aravind Adiga",
+    price: 320,
+    rating: 4.4,
+    reviews: 5312,
+    genre: "Literary Fiction",
+    pages: 321,
+    published: "2008",
+    isBestSeller: true,
+    description: "A darkly humorous novel that explores class struggle and ambition in modern India through the eyes of Balram Halwai.",
+    image: "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=400&h=600&fit=crop"
+  },
+  {
+    id: 6,
+    title: "Train to Pakistan",
+    author: "Khushwant Singh",
+    price: 275,
+    rating: 4.7,
+    reviews: 4120,
+    genre: "Historical Fiction",
+    pages: 192,
+    published: "1956",
+    isBestSeller: false,
+    description: "A powerful novel depicting the horrors of the Partition of India and its impact on ordinary people.",
+    image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=400&h=600&fit=crop"
+  },
+  {
+    id: 7,
+    title: "The Blue Umbrella",
+    author: "Ruskin Bond",
+    price: 180,
+    rating: 4.3,
+    reviews: 2980,
+    genre: "Children",
+    pages: 96,
+    published: "1980",
+    isBestSeller: false,
+    description: "A heartwarming story set in the hills, capturing innocence, kindness, and simple village life.",
+    image: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=400&h=600&fit=crop"
+  },
+  {
+    id: 8,
+    title: "Ikigai (Indian Edition)",
+    author: "Héctor García & Francesc Miralles",
+    price: 399,
+    rating: 4.6,
+    reviews: 11234,
+    genre: "Self Help",
+    pages: 208,
+    published: "2017",
+    isBestSeller: true,
+    description: "A guide to finding purpose in life, widely popular among Indian youth and readers.",
+    image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=400&h=600&fit=crop"
+  }
+];

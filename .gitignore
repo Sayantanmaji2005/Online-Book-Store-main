@@ -1,0 +1,6 @@
+Client/bookstore/node_modules/
+Client/bookstore/build/
+Server/node_modules/
+Server/.env
+Server/request_debug.log
+*.log
