@@ -34,6 +34,14 @@ mongoose.connect(mongoURI)
   .then(() => console.log("Database Connected to: ", mongoURI.includes('mongodb+srv') ? "Atlas (Online)" : "Local MongoDB"))
   .catch(err => console.log("Database Error: ", err));
 
+// Health/root route for browser checks
+app.get('/', (req, res) => {
+  res.status(200).json({
+    message: 'Bookstore API is running',
+    docs: '/api/books'
+  });
+});
+
 // Use Routes
 app.use('/api/auth', authRoutes);
 app.use('/api/books', bookRoutes);
